@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dynamic Form Validator</title>
+    <style>
+      #registerbtn {
+        background-color: grey;
+        color: white;
+        padding: 8px 15px;
+        border: none;
+        cursor: not-allowed;
+      }
+      #registerbtn:enabled {
+        background-color: rgb(20, 17, 70);
+        cursor: pointer;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h2>Registration Form</h2>
+    <form action="">
+      <label for="username"> Username :</label><br />
+      <input id="username" type="text" placeholder="Enter Username" />
+      <span id="username-msg"></span>
+      <br /><br />
+
+      <label for="email"> Email :</label><br />
+      <input id="email" type="email" placeholder="Enter the Email" />
+      <span id="email-msg"></span>
+      <br /><br />
+
+      <label for="password">Password :</label><br />
+      <input id="password" type="password" placeholder="Enter your password" />
+      <span id="password-msg"></span>
+      <br /><br />
+
+      <label for="cpassword">Confirm Password :</label><br />
+      <input
+        id="cpassword"
+        type="password"
+        placeholder="Re-enter your password"
+      />
+      <span id="cpassword-msg"></span>
+      <br /><br />
+
+      <!-- disabled initially -->
+      <button id="registerbtn" disabled>Register</button>
+    </form>
+    <script src="./form-validator.js"></script>
+  </body>
+</html>

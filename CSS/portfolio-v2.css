@@ -1,0 +1,136 @@
+/* reset  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: whitesmoke;
+  color: black;
+  line-height: 1.6;
+}
+
+/*header */
+header {
+  background: rgb(40, 58, 135);
+  color: white;
+  text-align: center;
+  padding: 40px;
+}
+
+header h1 {
+  font-size: 2.5rem;
+}
+
+header p {
+  font-size: 1.1rem;
+}
+
+/* navigation */
+.nav-heads ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.nav-heads ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.nav-heads ul li a:hover {
+  color: lightgray;
+}
+
+/*section*/
+section {
+  max-width: 900px;
+  background: white;
+  margin: 30px auto;
+  padding: 25px;
+  border-radius: 10px;
+  border: 1px solid lightgray;
+}
+
+section h2 {
+  margin-bottom: 15px;
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+/*about*/
+#about img {
+  display: block;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+/* skills */
+#skills ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+#skills li {
+  background: steelblue;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 6px;
+}
+
+/* project */
+#projects article {
+  background: lavender;
+  padding: 15px;
+  margin: 15px 0;
+  border-radius: 6px;
+  border-left: 4px solid navy;
+}
+
+#projects a {
+  display: inline-block;
+  margin-top: 8px;
+  text-decoration: none;
+  color: royalblue;
+  font-weight: bold;
+}
+
+/* contact */
+form input,
+form textarea {
+  width: 100%;
+  padding: 8px;
+  margin: 6px 0;
+  border: 1px solid gray;
+  border-radius: 6px;
+}
+
+button {
+  background: rgb(40, 58, 135);
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: darkblue;
+}
+
+section a {
+  color: darkblue;
+  font-weight: bold;
+}
+
+section a:hover {
+  color: blue;
+}
