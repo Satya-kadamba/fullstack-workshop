@@ -1,7 +1,7 @@
-
 #!/bin/bash
+set -e
 
-LOG_FILE="/c/Users/kadam/devtraining/sample-log.txt"
+LOG_FILE="${1:-/c/Users/kadam/devtraining/sample-log.txt}"
 
 echo "=========== Log Analysis Report ============="
 
@@ -22,10 +22,9 @@ if [ -e "$LOG_FILE" ]; then
 
   echo "-----------------------------------"
   echo "Unique IP Addresses Found:"
-
   IP_LIST=$(grep -oE '[0-9]{1,3}(\.[0-9]{1,3}){3}' "$LOG_FILE" | sort | uniq)
   echo "$IP_LIST"
 
-        else
+else
   echo "Error: Log file not found"
-        fi
+fi
