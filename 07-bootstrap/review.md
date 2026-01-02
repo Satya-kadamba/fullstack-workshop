@@ -1,32 +1,27 @@
 # Review: 07-bootstrap
 
 **Exercise:**  Exercise: Build a Responsive Dashboard Layout
-**Review Date:** 2025-12-30 12:18
+**Review Date:** 2025-12-31 10:57
 
 ---
 
 ## Status: ✅ Submitted
 
-**Files submitted:** 4
+**Files submitted:** 0
 
-### Code Review
+### Relevance Check
 
-📄 **portfolio-v3.html**
-   Path: `07-bootstrap/portfolio-v3.html`
-   Lines: 358
+❌ **Submission does NOT match exercise requirements**
+   Expected keywords: dashboard container row col navbar
+   None of the expected keywords found in submission
+   **Please review the exercise requirements and resubmit**
 
-    - ✅ Has `<!DOCTYPE html>`
-    - ✅ Uses semantic HTML5 tags
-    - ❌ Images missing `alt` attributes
-    - ✅ Has viewport meta tag (mobile-friendly)
-    - ✅ Has `lang` attribute
-    - 📌 **Version 3 (Bootstrap)**
-    - ✅ Uses Bootstrap framework
-    - ✅ Uses Bootstrap classes
+### ⚠️ Review Skipped
 
-   **Score: 4/5**
+The submission does not appear to match the exercise requirements.
+Please complete the correct exercise and resubmit.
 
-### Topic Score: 4 / 5 (80%)
+### Topic Score: 0 / 100 (0%)
 
 ---
 
