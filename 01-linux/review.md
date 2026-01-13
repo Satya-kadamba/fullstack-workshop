@@ -1,7 +1,7 @@
 # Review: 01-linux
 
 **Exercise:**  Exercise: Log File Analyzer Script
-**Review Date:** 2025-12-31 10:57
+**Review Date:** 2026-01-05 15:08
 
 ---
 
@@ -21,17 +21,17 @@ Relevance check not configured for this topic
 
 📄 **log-analyzer.sh**
    Path: `01-linux/log-analyzer.sh`
-   Lines: 30
+   Lines: 33
 
     - ✅ Has shebang (`#!/bin/bash`)
     - ✅ Has error handling (`set -e`)
-    - ⚠️ No argument handling detected
-    - 💡 Consider adding more comments
+    - ✅ Handles command-line arguments
+    - ✅ Has comments (3 lines)
     - ✅ Variables are properly quoted
 
-   **Score: 3/5**
+   **Score: 5/5**
 
-### Topic Score: 8 / 10 (80%)
+### Topic Score: 10 / 10 (100%)
 
 ### Technical Checklist
 
@@ -49,7 +49,7 @@ Relevance check not configured for this topic
 
 **Status:** ⚠️ Not submitted
 
-Submit to: `01-linux/challenges/`
+Submit to: `01-linux/challenges/` or `01-linux/challenge-01/`, `01-linux/challenge-02/`, etc.
 
 ---
 
